@@ -1,0 +1,13 @@
+	private static void findMagicIndex(int[] array) {
+		int i;
+		int mi = 0;
+		int lmi;
+
+		for (i = 0; i < array.length; i++) {
+			if (array[i] == i) {
+				mi = array[i];
+				System.out.println(mi);
+			}
+		}
+
+	}
